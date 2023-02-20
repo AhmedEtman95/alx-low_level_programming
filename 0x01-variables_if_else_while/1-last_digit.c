@@ -8,15 +8,14 @@
 
 
 
-        /**
-         * main -prints if number is positive, zero or negative
-         * Return: Always(success)
-         *
-         */
-        int main(void)
+ /**
+  * main -prints a text according number
+  * Return: Always (success)
+  *
+  */
+ int main(void)
 
-
-        {
+{
                 int n, lastd;
 
 
