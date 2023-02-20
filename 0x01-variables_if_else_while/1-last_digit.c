@@ -10,10 +10,10 @@
 
  /**
   * main - Prints a text according number
-  * Return: Always (success)
+  * Return: Always (Success)
   *
   */
-  
+
 int main(void)
 
 {
