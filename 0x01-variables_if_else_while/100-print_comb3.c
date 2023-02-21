@@ -10,14 +10,19 @@ int main(void)
 
 {
 	int c;
+	int c2;
 
-	for (c = 0; c <= 9; c++)
+	for (c = 0; c <= 8; c++)
 	{
-		putchar(c + '0');
-		if (c < 9)
+		for (c2 = c + 1; c2 <= 9; c2++)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(c + '0');
+			putchar(c2 + '0');
+			if (c2 < 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
