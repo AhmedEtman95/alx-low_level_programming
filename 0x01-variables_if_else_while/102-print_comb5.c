@@ -15,7 +15,7 @@ int main(void)
 	{
 		int c2;
 
-		for (c2 = 0; c2 <= 8; c2++)
+		for (c2 = 0; c2 <= 9; c2++)
 		{
 			int c3;
 
@@ -25,18 +25,18 @@ int main(void)
 
 				for (c4 = 0; c4 <= 9; c4++)
 				{
-					if (c3> c ||(c3 == c && c4>c2))
+					if (c3 > c || (c3 == c && c4 > c2))
 					{
-						putchar(c + '0');
-						putchar(c2 + '0');
-						putchar(' ');
-						putchar(c3 + '0');
-						putchar(c4 + '0');
-						if (!(c == 9 && c2 == 8 && c3 == 9 && c4 == 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					putchar(c + '0');
+					putchar(c2 + '0');
+					putchar(' ');
+					putchar(c3 + '0');
+					putchar(c4 + '0');
+					if (!(c == 9 && c2 == 8 && c3 == 9 && c4 == 9))
+					{
+					putchar(',');
+					putchar(' ');
+					}
 					}
 				}
 			}
