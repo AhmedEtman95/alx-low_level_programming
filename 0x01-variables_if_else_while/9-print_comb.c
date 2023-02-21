@@ -11,12 +11,14 @@ int main(void)
 {
 	int c;
 
-	for (c = 0; c <= 8; c++)
+	for (c = 0; c <= 9; c++)
 	{
 		putchar(c + '0');
-		putchar(',');
+		if (c < 9)
+		{
+			putchar(',');
+		}
 		putchar(' ');
 	}
-	putchar(c + '0');
 	return (0);
 }
