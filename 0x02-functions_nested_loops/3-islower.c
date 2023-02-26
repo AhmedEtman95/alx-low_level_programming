@@ -2,7 +2,9 @@
 
 /**
 * _islower - Checks if i is a lower case or not.
-* i: the integet number that you want to check as per ASCII.
+* 
+* i: the integer number that you want to check as per ASCII.
+* 
 * Return: 0 if not a lower case, 1 if a lower case
 */
 
