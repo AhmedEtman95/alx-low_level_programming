@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* _islower - Checks if i is an alpha or not
+* _isalpha - Checks if i is an alpha or not
 *
 * @i: the integer number that you want to check as per ASCII
 *
@@ -12,7 +12,7 @@ int _isalpha(int i)
 {
 	int result;
 
-	if ((i >= 97 && i <= 122) || (i>=65 && i<=90))
+	if ((i >= 97 && i <= 122) || (i >= 65 && i <= 90))
 		result = 1;
 	else
 		result = 0;
