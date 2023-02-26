@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* _islower - Checks if i is a lower case or not.
-* 
-* i: the integer number that you want to check as per ASCII.
-* 
+* _islower - Checks if i is a lower case or not
+*
+* i: the integer number that you want to check as per ASCII
+*
 * Return: 0 if not a lower case, 1 if a lower case
 */
 
