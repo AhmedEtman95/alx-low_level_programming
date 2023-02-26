@@ -13,7 +13,6 @@ int print_sign(int i)
 	int result;
 
 	putchar('\b');
-	putchar('\b');
 	if (i > 0)
 	{
 		result = 1;
@@ -31,6 +30,5 @@ int print_sign(int i)
 
 	}
 
-	putchar(result + '0');
 	return (result);
 }
