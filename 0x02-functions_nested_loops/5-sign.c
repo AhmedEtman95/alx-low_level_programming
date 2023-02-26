@@ -12,7 +12,6 @@ int print_sign(int i)
 {
 	int result;
 
-	putchar('\b');
 	if (i > 0)
 	{
 		result = 1;
