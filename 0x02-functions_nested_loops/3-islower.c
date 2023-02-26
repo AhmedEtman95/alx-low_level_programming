@@ -9,7 +9,6 @@ int _islower(int i)
 {
 	int result;
 
-	result = is
 	if (i >= 97 && i <= 122)
 		result = 1;
 	else
