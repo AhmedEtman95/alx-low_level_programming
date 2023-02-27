@@ -1,33 +1,35 @@
-#include <stdio.h>
+#include "main.h"
+
 
 /**
-* print_sign - prints sign
-*
-* @i: the integer number that you want to check as per ASCII
-*
-* Return: 1 if greater than 0, 0 if 0 and -1 if less than 0
-*/
-
-int print_sign(int i)
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int result;
+	int r;
 
-	if (i > 0)
-	{
-		result = 1;
-		putchar('+');
-	}
-	else if (i == 0)
-	{
-		result = 0;
-		putchar('0');
-	}
-	else
-	{
-		result = -1;
-		putchar('-');
 
-	}
-
-	return (result);
+	r = print_sign(98);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
+	r = print_sign(0);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
+	r = print_sign(0xff);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
+	r = print_sign(-1);
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
